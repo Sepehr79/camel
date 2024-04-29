@@ -50,6 +50,7 @@ public class IncomingMessage implements Serializable {
 
     private IncomingVideo video;
 
+    @JsonProperty("voice")
     private IncomingAudio audio;
 
     private IncomingDocument document;
